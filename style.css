@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("./fonts/Roboto.ttf");
+}
+
+body, .main-page {
+    font-family: 'Roboto';
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color:#ffce1a;
+    overflow: auto;
+}
+
+.conteiner {
+    width: 1905px;
+    height:100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.nav-bar {
+    display: flex;
+    max-height: 73px;
+    max-width: 1905px;
+    width:1905px;
+    margin-bottom:0px;
+    color: white;
+    background-color: black;
+    justify-content:space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.nav {
+    display: flex;
+    max-height: 62px;
+    max-width: 1905px;
+    width: 1905px;
+    justify-content:flex-end;
+}
+
+.home,.service,.portfolio, .about, .clients, .price, .contact {
+    display: flex;
+    border: 1px solid #ffce1a;
+    width: 113px;
+    height: 40px;
+    font-size: 16px;
+    margin-left: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+.home:hover {
+    background-color:#daaf15;
+}
+
+.service:hover {
+    background-color:#daaf15;
+}
+
+.portfolio:hover {
+    background-color:#daaf15;
+}
+
+.about:hover {
+    background-color:#daaf15;
+}
+
+.clients:hover {
+    background-color:#daaf15;
+}
+
+.price:hover {
+    background-color:#daaf15;
+}
+
+.contact:hover {
+    background-color:#daaf15;
+}
+
+.bg-advertisement {
+    height: 500px;
+    width: 1905px;
+    background-image: url('./images/advertisement/advertisementBackground.jpg');
+    opacity: 0.3;
+    background-repeat:no-repeat;
+    position: absolute;
+    top: 74px;
+}
+
+.advertisement {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.text-advertisement {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 585px;
+    height: 256px;
+    margin-right: 100px;
+}
+.text-advertisement h1, h2 {
+    font-size: 33px;
+    text-transform: uppercase;
+}
+
+.text-advertisement p {
+    font-size: 17px;
+    color: white;
+}
+
+.button-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border: 1px solid black;
+    width: 113px;
+    height: 40px;
+    padding: 10px 15px;
+}
+
+.button-download:hover{
+    background-color: black;
+    color: white;
+}
+
+.box-WhatWeDo {
+    width: 1905px;
+    height: 586px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: black;
+    
+}
+
+.text-whatWeDo {
+    width: 1170px;
+    height: 120px;
+    margin-top: 50px;
+    text-align: center;
+    border-bottom: 1px solid white;
+
+}
+
+.text-whatWeDo h1 {
+    font-size: 38.5px;
+    color:white;
+    justify-content: center;
+}
+
+.text-whatWeDo p {
+    font-size: 20px;
+    color: #daaf15;
+}
+
+.boxpictures {
+    height: 288px;
+    width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img-box2 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.picture-1, .picture-2, .picture-3 {
+    width: 390px;
+    height: 288px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+span {
+    color: #daaf15;
+    font-size: 24.5px;
+    text-align: center;
+    
+}
+
+.text-box2 {
+    color: white;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+/* .about-modern-disegn {
+    width: 390px;
+    height: 288px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-about-modern-disegn{
+    border-radius: 50%;
+}
+
+
+.about-modern-disegn span {
+    color: #daaf15;
+    font-size: 24.5px;
+}
+
+.about-modern-disegn p {
+    color: white;
+    font-size: 17px;
+    text-align: center;
