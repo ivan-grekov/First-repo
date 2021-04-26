@@ -13,16 +13,35 @@ body, .main-page {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-content: flex-start;
     flex-wrap: wrap;
     background-color:#ffce1a;
     overflow: auto;
 }
 
+/* .bg {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+.bg1 {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+    
+} */
+
+
 .conteiner {
     width: 1905px;
     height:100%;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-content: flex-start;
@@ -213,33 +232,117 @@ span {
     font-size: 17px;
 }
 
+.img-box2:hover {
+    height: 170px;
+    width: 170px;
+}
 
+.box-aboutWorks {
+    width:1170px;
+    height:auto;
+    background-color:#ffce1a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content:flex-start;
+}
 
+.box-aboutWorks-text {
+    width: 1170px;
+    height: 127px;
+    border-bottom: 1px solid black;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 4em;
+}
 
+.box-aboutWorks-text h1 {
+    font-size: 38.5px;
+}
 
+.box-aboutWorks-text p {
+    font-size: 20px;
+}
 
+.box-aboutWorks-navbar {
+    width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items:center;
+    margin-top: 20px;
 
+}
 
-/* .about-modern-disegn {
-    width: 390px;
-    height: 288px;
+.button {
+    border: 1px solid black;
+    margin-right: 6px;
+    padding: 8px 25px;
+    font-size: 17px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.box-aboutWorks-images {
+    width: 1170px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content:flex-start;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.box-aboutWorks-images-row {
+    width: 1170px;
+    height: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-content:center;
+    margin-bottom: 10px;
+}
+
+.aboutWorks-image {
+    width: 370px;
+    height: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content:flex-start;
+}
+
+.aboutWorks-image-text {
+    width: 370px;
+    height: 80px;
+    line-height: 2em;
+    text-align: center;
+    background-color: black;
+
+}
+
+.text1-about-works {
+    font-size: 20px;
+    color: #ffce1a;
+}
+
+.text2-about-works {
+    font-size: 17px;
+    color:white;
+}
+
+.box-WhoWeAre {
+    width: 1170px;
+    height: 1155px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: flex-start;
     flex-wrap: wrap;
+    background-color: black;
+    margin-top: 20px;
 }
 
-.img-about-modern-disegn{
-    border-radius: 50%;
-}
-
-
-.about-modern-disegn span {
-    color: #daaf15;
-    font-size: 24.5px;
-}
-
-.about-modern-disegn p {
-    color: white;
-    font-size: 17px;
-    text-align: center;
