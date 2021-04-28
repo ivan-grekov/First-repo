@@ -1,0 +1,623 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("./fonts/Roboto.ttf");
+}
+
+body,.main-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #ffce1a;
+    font-family:'Roboto';
+    font-weight: normal;
+}
+
+
+header {
+    width: 100%;
+    height: 62px;
+    background-color: black;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.header-conteiner{
+    width: 1170px;
+    height: 62px;
+    background-color: black;
+    display: flex;
+    align-content:center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.nav {
+    display: flex;
+    height: 62px;
+    width: auto;
+    margin-bottom:0px;
+    color: white;
+    background-color: black;
+    justify-content:flex-start;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+
+.button-header {
+    display: flex;
+    border: 1px solid #ffce1a;
+    width: 113px;
+    height: 40px;
+    font-size: 16px;
+    margin-left: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-header:hover {
+    background-color:#daaf15;
+}
+
+.box-advertisement {
+    width: 100%;
+    height: 500px;
+    max-height: 500px;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bg-adv {
+    width: 100%;
+    height: 500px;
+    background-image: url('./images/advertisement/advertisementBackground.jpg');
+    opacity: 0.3;
+    background-repeat:repeat;
+}
+
+.advertisement-conteiner{
+    width: 1170px;
+    height: 256px;
+    max-height: 500px;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-top: 122px;
+}
+
+.text-advertisement {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 585px;
+    height: 256px;
+    margin-right: 100px;
+}
+
+.text-advertisement h1, h2 {
+    font-size: 33px;
+    text-transform: uppercase;
+}
+
+.text-advertisement p {
+    font-size: 17px;
+    color: white;
+}
+
+.button-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border: 1px solid black;
+    width: 113px;
+    height: 40px;
+    padding: 10px 15px;
+}
+
+.button-download:hover {
+    background-color: black;
+    color: white;
+}
+
+/* box-WhatWeDo */
+
+.box3 {
+    width: 100%;
+    height: 586px;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.box-WhatWeDo {
+    width: 1170px;
+    height: 586px;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    flex-wrap: wrap;
+    background-color: black;
+    
+}
+
+.text-whatWeDo, .textWhoWeAre {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align:center;
+    line-height: 3em;
+    width: 1170px;
+    height: 120px;
+    border-bottom: 1px solid white;
+
+}
+
+.text-whatWeDo h1, .textWhoWeAre h1{
+    font-size: 38.5px;
+    color:white;
+}
+
+.text-whatWeDo p, .textWhoWeAre p {
+    font-size: 20px;
+    color: #daaf15;
+}
+
+.boxpictures {
+    height: 288px;
+    width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img-box2 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.picture-1, .picture-2, .picture-3 {
+    width: 390px;
+    height: 288px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+span {
+    color: #daaf15;
+    font-size: 24.5px;
+    text-align: center;
+    
+}
+
+.text-box2 {
+    color: white;
+    font-size: 17px;
+}
+
+.img-box2:hover {
+    height: 170px;
+    width: 170px;
+}
+
+/* Начало блока about works */
+
+.box4 {
+    width:100%;
+    height:auto;
+    background-color:#ffce1a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content:space-around;
+}
+
+.box-aboutWorks {
+    width:1170px;
+    height:1198px;
+    background-color:#ffce1a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content:space-around;
+}
+
+.box-aboutWorks-text {
+    width: 1170px;
+    height: 127px;
+    border-bottom: 1px solid black;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 4em;
+}
+
+.box-aboutWorks-text h1 {
+    font-size: 38.5px;
+}
+
+.box-aboutWorks-text p {
+    font-size: 20px;
+}
+
+.box-aboutWorks-navbar {
+    width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items:center;
+    margin-top: 20px;
+
+}
+
+.button {
+    border: 1px solid black;
+    margin-right: 6px;
+    padding: 8px 25px;
+    font-size: 17px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.box-aboutWorks-images {
+    width: 1170px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content:flex-start;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.box-aboutWorks-images-row {
+    width: 1170px;
+    height: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-content:center;
+    margin-bottom: 10px;
+}
+
+.aboutWorks-image {
+    width: 370px;
+    height: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content:flex-start;
+}
+
+.aboutWorks-image-text {
+    width: 370px;
+    height: 80px;
+    line-height: 2em;
+    text-align: center;
+    background-color: black;
+
+}
+
+.text1-about-works {
+    font-size: 20px;
+    color: #ffce1a;
+}
+
+.text2-about-works {
+    font-size: 17px;
+    color:white;
+}
+
+.box5 {
+    width:100%;
+    height:auto;
+    background-color:black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content:center;
+    margin-top: 30px;
+}
+
+.box-WhoWeAre {
+    width: 1170px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.boximage-WhoWeAre {
+    width: 1170px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-content:center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.image-WhoWeAre{
+    display: flex;
+    justify-content: center;
+    align-content:flex-start;
+    flex-wrap: wrap;
+    width: 348px;
+    height: 450px;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.text-JohnDoe {
+    padding: 10px;
+    color:#ffce1a;
+    font-size: 24.5px;
+}
+
+.text-back {
+    padding-top: 50px;
+    color: white;
+    position: absolute;
+    width: 348px;
+    height: auto;
+    z-index: 100;
+}
+
+.text-back p {
+    font-size: 30px;
+    color: black;
+}
+
+.text-back span {
+    color: black;
+
+}
+
+.under-image1 {
+    background-image:url(./images/whoWeAre/photo1.png);
+    background-color:#ffce1a;
+    position: relative;
+    width: 345px;
+    height: 345px;
+    z-index: 101;
+}
+
+
+.under-image2 {
+    background-image:url(./images/whoWeAre/photo2.png);
+    background-color:#ffce1a;
+    position: relative;
+    width: 345px;
+    height: 345px;
+    z-index: 101;
+}
+
+.under-image3 {
+    background-image:url(./images/whoWeAre/photo3.png);
+    background-color:#ffce1a;
+    position: relative;
+    width: 345px;
+    height: 345px;
+    z-index: 101;
+}
+
+.number {
+    width: 348px;
+    height: auto;
+    color: whitesmoke;
+    font-size: 24px;
+    word-spacing: 1em;
+    
+}
+
+.number:hover{
+    color: #ffce1a;
+}
+
+.under-image1:hover {
+    z-index: 99;
+    opacity: 0.5;
+
+}
+
+.under-image2:hover {
+    z-index: 99;
+    opacity: 0.5;
+}
+
+.under-image3:hover {
+    z-index: 99;
+    opacity: 0.5;
+}
+
+.aboutUs {
+    width:100%;
+    height:150px;
+    background-color:black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content:center;
+    margin-top: 20px;
+}
+
+.aboutUs h1 {
+    font-weight: normal;
+    font-size: 24.6;
+    color: #ffce1a;
+    margin-bottom: 10px;
+}
+
+.aboutUs p {
+    color: white;
+    text-align: center;
+}
+
+.text-skills {
+    width: 1170px;
+    height: 28px;
+    color:#ffce1a;
+    text-align: start;
+    font-size: 24.5px;
+}
+
+.box-aboutSkills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    height: 266px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.graphs-text{
+    width: 572px;
+    height: 266px;
+}
+
+.progress{
+    margin-bottom: 30px;
+}
+
+.progress-bar{
+    color: black;
+    font-family: 'Roboto';
+    font-size: 15px;
+    text-align: start;
+    padding-left: 10px;
+}
+
+.graphs-text2{
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 572px;
+    height: 266px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.graphs-text2 p {
+    font-size: 38.5px;
+}
+
+.graphs-text2 span {
+    font-size: 16px;
+    color: black;
+
+}
+
+.button-box-aboutSkills{
+    width: 106px;
+    height: 37px;
+    background-color:#ffce1a;
+    color: black;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.button-box-aboutSkills:hover{
+    color: white;
+    background-color: black;
+}
+
+.box6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 312px;
+    width: 100%;
+    background-color:#ffce1a;
+    margin-top: 30px;
+}
+
+.box6-content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 1170px;
+    height: 212px;
+    color: black;
+}
+
+.box6-content p{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.box6-content-button{
+    width: 106px;
+    height: 38px;
+    background-color:#ffce1a;
+    padding-top: 5px;
+    color: black;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.box6-content-button:hover{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
