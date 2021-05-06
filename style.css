@@ -67,6 +67,7 @@ header {
 
 .button-header:hover {
     background-color:#daaf15;
+    cursor: pointer;
 }
 
 .box-advertisement {
@@ -133,6 +134,7 @@ header {
 .button-download:hover {
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 
 /* box-WhatWeDo */
@@ -219,6 +221,7 @@ span {
 .img-box2:hover {
     height: 170px;
     width: 170px;
+    cursor: pointer;
 }
 
 /* Начало блока about works */
@@ -280,6 +283,7 @@ span {
 .button:hover {
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 
 .box-aboutWorks-images {
@@ -367,13 +371,37 @@ span {
     justify-content: center;
     align-content:flex-start;
     flex-wrap: wrap;
-    width: 348px;
+    width: 350px;
     height: 450px;
     border: 1px solid white;
     padding: 10px;
     text-align: center;
 
 }
+
+.holder{
+    position:relative;
+    width:330px;
+    height:330px;
+    }
+
+.block{
+    position:absolute;
+    width: 330px;
+    height: 330px;
+    left: 0px;
+    bottom:0;
+    right:0;
+    background: #daaf15;
+    padding-top:150px;
+    display:none;
+    opacity: 0.6;
+    text-align: center;
+    }
+
+.holder:hover .block{
+    display:block;
+    }
 
 .text-JohnDoe {
     padding: 10px;
@@ -400,34 +428,6 @@ span {
 
 }
 
-.under-image1 {
-    background-image:url(./images/whoWeAre/photo1.png);
-    background-color:#ffce1a;
-    position: relative;
-    width: 345px;
-    height: 345px;
-    z-index: 101;
-}
-
-
-.under-image2 {
-    background-image:url(./images/whoWeAre/photo2.png);
-    background-color:#ffce1a;
-    position: relative;
-    width: 345px;
-    height: 345px;
-    z-index: 101;
-}
-
-.under-image3 {
-    background-image:url(./images/whoWeAre/photo3.png);
-    background-color:#ffce1a;
-    position: relative;
-    width: 345px;
-    height: 345px;
-    z-index: 101;
-}
-
 .number {
     width: 348px;
     height: auto;
@@ -439,22 +439,6 @@ span {
 
 .number:hover{
     color: #ffce1a;
-}
-
-.under-image1:hover {
-    z-index: 99;
-    opacity: 0.5;
-
-}
-
-.under-image2:hover {
-    z-index: 99;
-    opacity: 0.5;
-}
-
-.under-image3:hover {
-    z-index: 99;
-    opacity: 0.5;
 }
 
 .aboutUs {
@@ -548,6 +532,7 @@ span {
 .button-box-aboutSkills:hover{
     color: white;
     background-color: black;
+    cursor: pointer;
 }
 
 .box6{
@@ -592,6 +577,7 @@ span {
 .box6-content-button:hover{
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 
 footer{
